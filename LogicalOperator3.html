@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <script>
+            let login = prompt("enter login name");
+            if(login == "Admin"){
+                let Password = prompt("Enter password","");
+                if(Password == "TheMaster"){
+                    alert("Welcome");
+                }
+                else if(Password == "other"){
+                    alert("wrong password");
+                }
+                else if(Password == "cancel"){
+                    alert("cancelled");
+                }
+                else{
+                    alert("");
+                }
+            }
+            else if(login == "other"){
+                alert("I don't know you");
+            }
+            else if(login == "cancel"){
+                alert("cancelled");
+            }
+            else{
+                alert("");
+            }
+
+
+        </script>
+    </body>
+</html>
